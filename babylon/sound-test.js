@@ -77,8 +77,8 @@ export class Dance extends World {
   
 }
 
-var OPENVIDU_SERVER_URL = "https://openvidu-openvidu.apps.p27eai7o.eastus.aroapp.io";
-var OPENVIDU_SERVER_SECRET = "MY_SECRET";
+var OPENVIDU_SERVER_URL = "https://openvidu-openvidu.apps.fjuwuqfj.eastus.aroapp.io";
+var OPENVIDU_SERVER_SECRET = "vrtest123";
 
 async function getToken(mySessionId) {
   return createSession(mySessionId).then(sId => createToken(sId));
